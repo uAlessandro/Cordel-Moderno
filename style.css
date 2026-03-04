@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color: #FFFAEE;
+}
+header{
+    background-color: #805500;
+    color: white;
+    text-align: center;
+    font-family:'Passion One', Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 3em;
+    
+
+}
+a{
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-decoration: none;
+
+}
+
+
+
+section{
+
+}
+pre{
+    line-height: 3em;
+
+}
+footer{
+    background-color: #805500;
+    color: white;
+    text-align: center;
+
+
+}
