@@ -7,40 +7,95 @@
 }
 body{
     background-color: #FFFAEE;
+    min-height: 100vh;
+    
 }
 header{
     background-color: #805500;
-    color: white;
     text-align: center;
-    font-family:'Passion One', Arial, Helvetica, sans-serif;
-    text-transform: capitalize;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    font-size: 3em;
     
-
+    
+    
+}header>h1{
+     color: rgb(255, 255, 255);
+    
+    font-family:'Passion One', Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    font-size: clamp(1rem, 6vw, 8rem);
+    padding-top: 50px;
+    
+}
+header>p{
+    font-weight: bolder;
+    color: white;
+    font-weight: 100;
+    font-size: clamp(1rem, 1.6vw, 2rem);
+    padding-bottom: 50px;
+    font-family: 'Sriracha','Times New Roman', Times, serif;
+    
 }
 a{
     color: white;
-    padding-top: 50px;
-    padding-bottom: 50px;
     text-decoration: none;
-
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
 }
 
 
 
 section{
+  
 
 }
+#girassol{
+    background-image: url("imagens/girasol1.jpg");
+    
+   
+}
+#folhaletra{
+    background-image: url("imagens/folhas-escritas.jpg");
+    
+    
+}
+
+.vsimagem{
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+
+}
+.telapreta{
+    
+    background-color: rgba(0, 0, 0, 0.19);
+    color: white;
+    display: inline-block;
+    margin: 0;
+    padding: 10vh;
+    translate: 3vh;
+
+    
+}
 pre{
-    line-height: 3em;
+   
+    line-height:4em;
+    font-size: clamp(1rem, 2vw, 3rem);
+    text-align: left;
+    font-family: 'Sriracha', 'Times New Roman', Times, serif;
+   
+    
 
 }
 footer{
     background-color: #805500;
     color: white;
     text-align: center;
+    padding: 10px;
+   
+    
+    
+
+    
 
 
 }
