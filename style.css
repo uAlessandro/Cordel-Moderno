@@ -3,6 +3,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 
 }
 body{
@@ -53,8 +54,8 @@ section{
     font-family: 'Sriracha', 'Times New Roman', Times, serif;
     padding-top:10vh;
     padding-bottom:10vh;
-    padding-left: 10vh;
-    margin: 0px;
+    padding-left: 10vh 5vw;
+    
    
    
 
@@ -84,6 +85,7 @@ section{
 }
 .telapreta{
     display: inline-block;
+
     background-color: rgba(0, 0, 0, 0.377);
     color: white;
     
@@ -98,7 +100,7 @@ section{
 pre{
     
     padding-bottom: 10vh;
-    padding-right: 10vh;
+    padding-right: 10vh 5vw;
     padding-top: 10vh;
     text-align: left;
   
