@@ -117,9 +117,15 @@ footer{
     background-color: #805500;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 10px 5vw;
+    
    
 }
+footer>p{
+font-size:clamp(1rem, 2vw, 3rem);
+
+}
+
 abbr{
     text-decoration: none;
 }
