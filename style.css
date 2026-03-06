@@ -33,6 +33,7 @@ header>p{
     padding-bottom: 50px;
     font-family: 'Sriracha','Times New Roman', Times, serif;
     
+    
 }
 a{
     color: white;
@@ -46,42 +47,66 @@ a:hover{
 
 
 section{
-  
+   
+    line-height:3em;
+    font-size: clamp(1rem, 2vw, 3rem);
+    font-family: 'Sriracha', 'Times New Roman', Times, serif;
+    padding-top:10vh;
+    padding-bottom:10vh;
+    padding-left: 10vh;
+    margin: 0px;
+   
+   
 
 }
-#girassol{
+#imggirassol{
     background-image: url("imagens/girasol1.jpg");
     
    
 }
-#folhaletra{
+#imgfolhaletra{
     background-image: url("imagens/folhas-escritas.jpg");
     
     
 }
 
 .vsimagem{
-    background-repeat: no-repeat;
-     background-attachment: fixed;
+   
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 6px 3px 13px 0px  rgba(0, 0, 0, 0.264);
+    background-position: right center;
+    background-color: black;
+    
+    
+    
 
 }
 .telapreta{
-    
-    background-color: rgba(0, 0, 0, 0.19);
-    color: white;
     display: inline-block;
-    margin: 0;
-    padding: 10vh;
-    translate: 3vh;
+    background-color: rgba(0, 0, 0, 0.377);
+    color: white;
+    
+    
+
+    
+   
+   
 
     
 }
 pre{
-   
-    line-height:4em;
-    font-size: clamp(1rem, 2vw, 3rem);
+    
+    padding-bottom: 10vh;
+    padding-right: 10vh;
+    padding-top: 10vh;
     text-align: left;
-    font-family: 'Sriracha', 'Times New Roman', Times, serif;
+  
+    
+   
+
+
+  
    
     
 
@@ -92,10 +117,7 @@ footer{
     text-align: center;
     padding: 10px;
    
-    
-    
-
-    
-
-
+}
+abbr{
+    text-decoration: none;
 }
